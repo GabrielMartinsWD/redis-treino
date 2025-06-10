@@ -2,7 +2,7 @@
 """
 
 import redis
-
+import atividades
 r = redis.Redis(
     host='redis-16566.c278.us-east-1-4.ec2.redns.redis-cloud.com',
     port=16566,
