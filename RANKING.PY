@@ -1,4 +1,3 @@
-import redis
 
 class Ranking:
     def __init__(self, redis_conn, key='ranking_jogadores'):

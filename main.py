@@ -18,3 +18,8 @@ result = r.get('foo')
 print(result)
 # >>> bar
 
+def registrar_acesso(recurso: str):
+    total = r.incr(f'contador:{recurso}')
+    print(f"A página '{recurso}' foi acessada {total} vezes.")
+
+
